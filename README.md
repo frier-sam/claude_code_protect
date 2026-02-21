@@ -27,7 +27,7 @@ Backup behaviour for workspace and whitelisted zones:
 ### Install (recommended)
 
 ```bash
-claude plugin marketplace add github:frier-sam/claude_code_protect
+claude plugin marketplace add frier-sam/claude_code_protect
 claude plugin install claude-code-protect
 ```
 

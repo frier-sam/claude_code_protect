@@ -57,7 +57,7 @@ To complete uninstallation:
      After restart, no deletion commands will be intercepted.
 
 To reinstall later:
-  claude plugin marketplace add github:frier-sam/claude_code_protect
+  claude plugin marketplace add frier-sam/claude_code_protect
   claude plugin install claude-code-protect
 ```
 

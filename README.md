@@ -54,6 +54,16 @@ claude --plugin-dir /path/to/claude_code_protect
 
 ---
 
+## Updating
+
+```bash
+claude plugin update claude-code-protect
+```
+
+Then restart Claude Code.
+
+---
+
 ## Uninstalling
 
 ```bash

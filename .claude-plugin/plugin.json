@@ -1,0 +1,9 @@
+{
+  "name": "claude-code-protect",
+  "version": "1.0.0",
+  "description": "File deletion guard for Claude Code. Intercepts all Bash-based deletion commands and enforces zone-based policies: auto-backup inside workspace (≤10MB), free deletion in /tmp, user prompt + block for anything outside.",
+  "author": {
+    "name": "claude-code-protect"
+  },
+  "keywords": ["safety", "protection", "deletion", "backup", "guard"]
+}

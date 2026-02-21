@@ -1,0 +1,22 @@
+{
+  "name": "claude-code-protect",
+  "owner": {
+    "name": "frier-sam"
+  },
+  "metadata": {
+    "description": "File deletion guard for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-code-protect",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/frier-sam/claude_code_protect.git"
+      },
+      "description": "File deletion guard for Claude Code. Intercepts all Bash-based deletion commands and enforces zone-based policies: auto-backup inside workspace, free deletion in /tmp, user prompt + block for anything outside.",
+      "version": "1.0.0",
+      "strict": true
+    }
+  ]
+}
